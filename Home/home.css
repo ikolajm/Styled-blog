@@ -1,0 +1,76 @@
+/*General*/
+
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+/*---*/
+
+/*Container*/
+
+#homepage-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*---*/
+
+/*Video Background*/
+
+#home-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/*---*/
+
+/*Header and Nav*/
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.fade {
+  opacity: 0;
+  transition: 1s;
+}
+
+ul {
+  list-style-type: none;
+  color: wheat;
+  font-size: 2rem;
+  text-shadow: 1px 1px #8c8c8c;
+}
+
+li {
+  padding: .5rem;
+  transition: .5s;
+}
+
+li:hover {
+  color: #95dcf9;
+}
+
+.social-container {
+  color: wheat;
+  font-size: 2rem;
+  text-shadow: 1px 1px #8c8c8c;
+}
+
+.icon-contain {
+  padding: .5rem;
+  transition: .5s;
+}
+
+.icon-contain:hover {
+  color: #95dcf9;
+}
+
+/*---*/
