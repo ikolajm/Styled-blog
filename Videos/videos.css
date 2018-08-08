@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  color: #495057;
+}
+
+/*Main Container*/
+
+/*---*/
+
+/*Header*/
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  color: wheat;
+  width: 50%;
+  font-family: 'Ranga', cursive;
+  cursor: pointer;
+}
+
+header h1:hover {
+  color: #95dcf9;
+}
+
+nav select {
+  display: none;
+  border: none;
+  outline: none;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+nav li:hover {
+  color: #95dcf9;
+}
+
+nav li a {
+  color: #495057;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #95dcf9;
+  text-decoration: none;
+}
+
+/*---*/
+
+/*Video Grid*/
+
+.vid-grid-contain {
+  display: block;
+  text-align: center;
+}
+
+.video-container {
+  display: inline-block;
+  margin: .25rem;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: auto;
+}
+
+/*---*/
+
+/*Footer*/
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-container a {
+  margin: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.social-container i:hover {
+  color: #95dcf9;
+  transform: scale(1.1);
+}
+
+/*---*/
+
+@media screen and (max-width: 500px) {
+
+  /*Header and Nav*/
+
+  nav {
+    display: inline-block;
+    width: 75%;
+  }
+
+  nav select {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  /*---*/
+
+}
+
+/*Video Grid*/
+
+@media screen and (min-width: 768px) {
+  .video-container {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .video-container {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .video-container {
+    width: 25%;
+  }
+
+}
+
+/*---*/

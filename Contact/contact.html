@@ -1,0 +1,72 @@
+<!--Will not work as there is no real email address set-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!--JQ-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!--Fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+  integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!--My CSS-->
+  <link rel="stylesheet" href="contact.css" type="text/css">
+
+  <title>Contact</title>
+  </head>
+
+  <body>
+
+    <main>
+
+      <!--Container-->
+
+      <div class="main-container">
+
+        <div class="form-container">
+
+          <h1>Contact Me</h1>
+
+          <form action="mail.php" method="POST">
+            <!--Row-->
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control my-2" placeholder="first name" name="firstname">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control my-2" placeholder="last name" name="lastname">
+              </div>
+            </div>
+            <!--End Row-->
+            <input type="email" class="form-control mb-2" id="email" placeholder="Email" name="email">
+            <input type="subject" class="form-control my-2" id="subject" placeholder="Subject" name="subject">
+            <textarea class="form-control my-2" id="exampleFormControlTextarea1" rows="3" placeholder="message" name="message"></textarea>
+            <!--Submit-->
+            <input type="submit" value="submit" class="btn my-2">
+          </form>
+
+          <!--Back-->
+          <span class="back"><a href="../Home/home.html">Back to home</a></span>
+
+        </div>
+
+      </div>
+
+      <!--End Main Container-->
+
+    </main>
+
+  </body>
+
+  </html>

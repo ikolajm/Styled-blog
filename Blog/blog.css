@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  color: #495057;
+}
+
+/*Main Container*/
+
+/*---*/
+
+/*Header*/
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  color: wheat;
+  width: 50%;
+  font-family: 'Ranga', cursive;
+  cursor: pointer;
+}
+
+header h1:hover {
+  color: #95dcf9;
+}
+
+nav select {
+  display: none;
+  border: none;
+  outline: none;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+nav li:hover {
+  color: #95dcf9;
+}
+
+nav li a {
+  color: #495057;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #95dcf9;
+  text-decoration: none;
+}
+
+/*---*/
+
+/*Post*/
+
+.meta-container {
+  text-align: center;
+}
+
+.meta-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.meta-container h1 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: black;
+}
+
+article p {
+  font-size: 1.15rem;
+}
+
+.read-more {
+  text-align: center;
+}
+
+article span {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #95dcf9;
+  cursor: pointer;
+}
+
+article span:hover {
+  color: #495057;
+}
+
+.post-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 1rem !important;
+}
+
+.post-details div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.post-details p {
+  padding-left: 10px;
+  margin-bottom: 0rem;
+}
+
+/*---*/
+
+/*Footer*/
+
+footer {
+  text-align: center;
+}
+
+footer nav {
+  margin: 0;
+}
+
+.pagination {
+  margin: 0;
+}
+
+.pagination li {
+  padding: 0;
+  margin: 0;
+}
+
+.page-link,
+.page-link:hover {
+  color: #95dcf9;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-container a {
+  margin: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.social-container i:hover {
+  color: #95dcf9;
+  transform: scale(1.1);
+}
+
+/*---*/
+
+@media screen and (max-width: 500px) {
+
+  nav {
+    display: inline-block;
+    width: 75%;
+  }
+
+  nav select {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+}

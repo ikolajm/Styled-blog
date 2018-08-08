@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  color: #495057;
+}
+
+/*Main Container*/
+
+/*---*/
+
+/*Photo Div*/
+
+.photo {
+  background-image: url(http://freshwallpapers.net/download/9491/3840x2160/download/girl-and-landscape.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/*---*/
+
+/*Text Div*/
+
+.name {
+  color: wheat;
+  cursor: pointer;
+  font-family: 'Ranga', cursive;
+}
+
+.name-sub {
+  font-family: 'Ranga', cursive;
+  font-size: 1.2rem;
+}
+
+.paragraph-container {
+  width: 80%;
+}
+
+/*---*/
+
+/*Footer*/
+
+.back {
+  display: block;
+  width: 80%;
+  cursor: pointer;
+}
+
+.back a {
+  color: #95dcf9;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-container a {
+  margin: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.social-container i:hover {
+  color: #95dcf9;
+  transform: scale(1.1);
+}
+
+/*---*/
+
+@media screen and (min-width: 992px) {
+
+  .main-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .photo {
+    height: 100vh;
+    overflow-y: hidden;
+    background-position-x: 75%;
+  }
+
+  .text-container {
+    margin: 0;
+    overflow-y: scroll;
+  }
+
+}

@@ -58,6 +58,16 @@ li:hover {
   color: #95dcf9;
 }
 
+nav li a {
+  color: wheat;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #95dcf9;
+  text-decoration: none;
+}
+
 .social-container {
   color: wheat;
   font-size: 2rem;
@@ -65,11 +75,22 @@ li:hover {
 }
 
 .icon-contain {
+  color: wheat;
   padding: .5rem;
   transition: .5s;
 }
 
 .icon-contain:hover {
+  color: #95dcf9;
+}
+
+.icon-contain a {
+  color: wheat;
+  padding: .5rem;
+  transition: .5s;
+}
+
+.icon-contain :hover {
   color: #95dcf9;
 }
 
